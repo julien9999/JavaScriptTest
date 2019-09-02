@@ -1,0 +1,64 @@
+{
+  "history": [
+    {
+      "user": "Bob",
+      "action": "login"
+    },
+    {
+      "user": "Bob",
+      "action": "like"
+    },
+    {
+      "user": "David",
+      "action": "buy",
+      "details": {
+        "amount": 1840,
+        "validated": true
+      }
+    },
+    {
+      "user": "Ana",
+      "action": "buy",
+      "details": {
+        "amount": 1390,
+        "validated": false
+      }
+    },
+    {
+      "user": "Bob",
+      "action": "buy",
+      "details": {
+        "amount": 2590,
+        "validated": true
+      }
+    },
+    {
+      "user": "Bob",
+      "action": "buy",
+      "details": {
+        "amount": 1390,
+        "validated": false
+      }
+    },
+    {
+      "user": "Ana",
+      "action": "buy",
+      "details": {
+        "amount": 1390,
+        "validated": false
+      }
+    },
+    {
+      "user": "Bob",
+      "action": "buy",
+      "details": {
+        "amount": 1390,
+        "validated": true
+      }
+    },
+    {
+      "user": "Craig",
+      "action": "like"
+    }
+  ]
+}

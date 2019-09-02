@@ -1,0 +1,33 @@
+{
+  "name": "@ovnicap/javascripttest",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "JavaScript test",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --require @babel/register --require babel-polyfill",
+    "start": "babel-node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OVNICap/JavaScriptTest.git"
+  },
+  "author": "OVNICap",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OVNICap/JavaScriptTest/issues"
+  },
+  "homepage": "https://github.com/OVNICap/JavaScriptTest#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/register": "^7.5.5",
+    "babel-core": "^6.26.3",
+    "babel-polyfill": "^6.26.0",
+    "chai": "^4.2.0",
+    "deep-eql": "^4.0.0",
+    "mocha": "^6.2.0"
+  }
+}
