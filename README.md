@@ -9,6 +9,12 @@ pass.
 
 ## Install
 
+### Option 1: GitPod
+
+[Open this repository in GitPod](https://www.gitpod.io/#https://github.com/OVNICap/JavaScriptTest).
+
+### Option 2: local machine
+
 Install [Node.js](https://nodejs.org)
 
 Install [Git](https://git-scm.com)
@@ -21,8 +27,6 @@ Clone your fork to work on it on a local machine:
 git clone https://github.com/<your-username>/JavaScriptTest
 cd JavaScriptTest
 ```
-
-Or use any online IDE you want (like [GitPod](https://www.gitpod.io/)).
 
 Install dependencies: `npm install`
 
@@ -43,9 +47,12 @@ and running `npm start`
 
 ## Submit your solution
 
-Then [create a pull-request on OVNICap/JavaScriptTest](https://github.com/OVNICap/JavaScriptTest/compare)
+Create a ZIP or TAR archive with modified files (**src** directory should be enough
+for this test, but you can include **package.json** if you added packages).
 
-Travis-CI will run tests, so you can check if everything works fine.
+On GitPod, you can right-click on the **src** folder and click "Download".
+
+Then send us the archive by mail.
 
 ## Evaluation
 
